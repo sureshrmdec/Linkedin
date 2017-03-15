@@ -7,4 +7,4 @@
 
 [4 Paint House](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/Paint%20House.java)
 
-[Paint House II](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/Paint%20House%20II.java)
+[4 Paint House II](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/Paint%20House%20II.java)
