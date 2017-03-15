@@ -7,4 +7,6 @@
 
 [4 Paint House](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/Paint%20House.java)
 
-[4 Paint House II](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/Paint%20House%20II.java)
+[5 Paint House II](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/Paint%20House%20II.java)
+
+[6 Shortest Word Distance](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/Shortest%20Word%20Distance.java)
