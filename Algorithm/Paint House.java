@@ -8,7 +8,7 @@ Note:
 All costs are positive integers.
 */
 
-
+ 
 public class Solution {
     public int minCost(int[][] costs) {
         
