@@ -10,3 +10,5 @@
 [5 Paint House II](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/Paint%20House%20II.java)
 
 [6 Shortest Word Distance](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/Shortest%20Word%20Distance.java)
+
+[7 Factor Combinations](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/Factor%20Combinations.java)
