@@ -16,3 +16,5 @@
 [8 Shortest Word Distance III](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/Shortest%20Word%20Distance%20III.java)
 
 [9 Isomorphic Strings](https://github.com/xunhuanfengliuxiang/Linkedin/blob/0ebcc134b11aeb889d40c703131417b818846e3d/Algorithm/Isomorphic%20Strings.java)
+
+[10 Serialize and Deserialize Binary Tree](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/Serialize%20and%20Deserialize%20Binary%20Tree.java)
