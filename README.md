@@ -24,3 +24,6 @@
 [12 Maximum Subarray](https://github.com/xunhuanfengliuxiang/Linkedin/blob/c34ca755272e44cf549e94d957445015a996fce1/Algorithm/Maximum%20Subarray.java) 
 
 [13 Text Justification](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/Text%20Justification.java)
+
+
+[14 Valid Number](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/Valid%20Number.java)
