@@ -12,3 +12,5 @@
 [6 Shortest Word Distance](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/Shortest%20Word%20Distance.java)
 
 [7 Factor Combinations](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/Factor%20Combinations.java)
+
+[8 Shortest Word Distance III](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/Shortest%20Word%20Distance%20III.java)
