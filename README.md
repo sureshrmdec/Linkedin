@@ -29,3 +29,6 @@
 [14 Valid Number](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/Valid%20Number.java)
 
 [15 Find Leaves of Binary Tree](https://github.com/xunhuanfengliuxiang/Linkedin/blob/fec0d4fd81d543b5fa0b7af971b7ea063ec06be7/Algorithm/Find%20Leaves%20of%20Binary%20Tree.java)
+
+
+[16 Merge Intervals](https://github.com/xunhuanfengliuxiang/Linkedin/blob/6814634e1e81cbd5d8a0a50c410f62fde831f6d5/Algorithm/Merge%20Intervals.java)
