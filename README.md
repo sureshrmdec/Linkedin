@@ -54,6 +54,8 @@
 
 [27 Search in Rotated Sorted Array](https://github.com/xunhuanfengliuxiang/Linkedin/blob/27eb03ea49ed28572e7b0231e0b67ef31786b13e/Algorithm/Search%20in%20Rotated%20Sorted%20Array.java)
 
+[28 Evaluate Reverse Polish Notation](https://github.com/xunhuanfengliuxiang/Linkedin/blob/b548abd796f09a707cec93b29e9927855286d912/Algorithm/Evaluate%20Reverse%20Polish%20Notation.java)
+
 [29 Lowest Common Ancestor of a Binary Tree](https://github.com/xunhuanfengliuxiang/Linkedin/blob/87667cabd6b336a6ef6497f7e434307e83e6872d/Algorithm/Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.java)
 
 
