@@ -73,12 +73,14 @@ public class Solution {
                             if(temp.equals(endWord)){
                                 return count;
                             }else if (!set.contains(temp)) {
-								q.add(temp);
-								set.add(temp);
-						    }
+				    
+				q.add(temp);
+				set.add(temp);
+				    
+			    }
+				
                         }
-                    
-                    
+                  
                     }
                 }
             }
