@@ -91,3 +91,5 @@
 [44 Permutations II](https://github.com/xunhuanfengliuxiang/Linkedin/blob/56fd36c0fa0146f515f09cfd82d596f3af4f3cc5/Algorithm/Permutations%20II.java)
 
 [45 Binary Search Tree Iterator](https://github.com/xunhuanfengliuxiang/Linkedin/blob/66308c3115cef75a7dfc793071f00f7ff166be96/Algorithm/Binary%20Search%20Tree%20Iterator.java)
+
+[46 Valid Perfect Square](https://github.com/xunhuanfengliuxiang/Linkedin/tree/master/Algorithm)
