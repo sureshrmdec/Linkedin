@@ -34,3 +34,5 @@
 [16 Merge Intervals](https://github.com/xunhuanfengliuxiang/Linkedin/blob/6814634e1e81cbd5d8a0a50c410f62fde831f6d5/Algorithm/Merge%20Intervals.java)
 
 [17 Find the Celebrity](https://github.com/xunhuanfengliuxiang/Linkedin/blob/42573ac9584c40098baaa0b3979feddf036d80d3/Algorithm/Find%20the%20Celebrity.java)
+
+[18 Repeated DNA Sequences](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/Repeated%20DNA%20Sequences.java)
