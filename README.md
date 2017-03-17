@@ -65,3 +65,4 @@
 
 [32 Symmetric Tree](https://github.com/xunhuanfengliuxiang/Linkedin/blob/30670ce243ca568abf284d4905c4d0919cfdf7ca/Algorithm/Symmetric%20Tree.java)
 
+[33 Permutations](https://github.com/xunhuanfengliuxiang/Linkedin/blob/642391b6aef624c4eabb3f63a7f0b02b7e476059/Permutations.java)
