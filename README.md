@@ -43,3 +43,5 @@
 [20 Repeated DNA Sequences](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/Repeated%20DNA%20Sequences.java)
 
 [21 Max Points on a Line](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/Max%20Points%20on%20a%20Line.java)
+
+[22 Search for a Range](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/Search%20for%20a%20Range.java)
