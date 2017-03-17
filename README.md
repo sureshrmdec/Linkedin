@@ -75,3 +75,7 @@
 [36 Maximum Depth of Binary Tree](https://github.com/xunhuanfengliuxiang/Linkedin/blob/1ee6558188151253caf9bb64505b4d7648210947/Algorithm/Maximum%20Depth%20of%20Binary%20Tree.java)
 
 [37 House Robber](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/House%20Robber.java)
+
+[38 House Robber II](https://github.com/xunhuanfengliuxiang/Linkedin/blob/6d919c5cb170cb89386e77cb9e15dc5f452c238e/Algorithm/House%20Robber%20II.java)
+
+[39 House Robber III](https://github.com/xunhuanfengliuxiang/Linkedin/blob/b5385b97c52aaf66aaff08122e681ea5bcd61350/Algorithm/House%20Robber%20III.java)
