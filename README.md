@@ -87,3 +87,5 @@
 [42 Merge k Sorted Lists](https://github.com/xunhuanfengliuxiang/Linkedin/blob/7c86072da3ec2760b033d8ea8c6ff8b46455aca5/Algorithm/Merge%20k%20Sorted%20Lists.java)
 
 [43 Merge Two Sorted Lists](https://github.com/xunhuanfengliuxiang/Linkedin/blob/79fcc6d9c3150ebc078c965bf2d84b04a66c3f31/Algorithm/Merge%20Two%20Sorted%20Lists.java)
+
+[44 Permutations II](https://github.com/xunhuanfengliuxiang/Linkedin/blob/56fd36c0fa0146f515f09cfd82d596f3af4f3cc5/Algorithm/Permutations%20II.java)
