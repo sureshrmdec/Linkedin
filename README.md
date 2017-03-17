@@ -66,3 +66,5 @@
 [32 Symmetric Tree](https://github.com/xunhuanfengliuxiang/Linkedin/blob/30670ce243ca568abf284d4905c4d0919cfdf7ca/Algorithm/Symmetric%20Tree.java)
 
 [33 Permutations](https://github.com/xunhuanfengliuxiang/Linkedin/commit/6c93b170033e49ad344b4bc34ca8f27f93ffc1c0)
+
+[34 Maximum Depth of Binary Tree](https://github.com/xunhuanfengliuxiang/Linkedin/blob/1ee6558188151253caf9bb64505b4d7648210947/Algorithm/Maximum%20Depth%20of%20Binary%20Tree.java)
