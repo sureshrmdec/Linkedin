@@ -83,3 +83,5 @@
 [40 Word Ladder](https://github.com/xunhuanfengliuxiang/Linkedin/blob/0f657c00ae3b95ca9590551e5421df7e51b2d615/Algorithm/Word%20Ladder.java)
 
 [41 Insert Interval](https://github.com/xunhuanfengliuxiang/Linkedin/blob/49dbfce6f567096c72446866c9b3be69b0688fb3/Algorithm/Insert%20Interval.java)
+
+[42 Merge k Sorted Lists](https://github.com/xunhuanfengliuxiang/Linkedin/blob/7c86072da3ec2760b033d8ea8c6ff8b46455aca5/Algorithm/Merge%20k%20Sorted%20Lists.java)
