@@ -45,3 +45,5 @@
 [21 Max Points on a Line](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/Max%20Points%20on%20a%20Line.java)
 
 [22 Search for a Range](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/Search%20for%20a%20Range.java)
+
+[23 Binary Tree Level Order Traversal](https://github.com/xunhuanfengliuxiang/Linkedin/blob/412b43db9189376e2eb3d3d179f54eeb806fb7be/Algorithm/Binary%20Tree%20Level%20Order%20Traversal.java)
