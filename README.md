@@ -50,12 +50,16 @@
 
 [25 Maximum Product Subarray](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/Maximum%20Product%20Subarray.java)
 
-[26 Lowest Common Ancestor of a Binary Tree](https://github.com/xunhuanfengliuxiang/Linkedin/blob/87667cabd6b336a6ef6497f7e434307e83e6872d/Algorithm/Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.java)
+[26 Two Sum](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/Two%20Sum.java)
+
+[27 Search in Rotated Sorted Array](https://github.com/xunhuanfengliuxiang/Linkedin/blob/27eb03ea49ed28572e7b0231e0b67ef31786b13e/Algorithm/Search%20in%20Rotated%20Sorted%20Array.java)
+
+[29 Lowest Common Ancestor of a Binary Tree](https://github.com/xunhuanfengliuxiang/Linkedin/blob/87667cabd6b336a6ef6497f7e434307e83e6872d/Algorithm/Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.java)
 
 
-[27 Minimum Window Substring](https://github.com/xunhuanfengliuxiang/Linkedin/blob/b5ee612631c204ab19033a3ed50ca7c57e210ba2/Algorithm/Minimum%20Window%20Substring.java)
+[30 Minimum Window Substring](https://github.com/xunhuanfengliuxiang/Linkedin/blob/b5ee612631c204ab19033a3ed50ca7c57e210ba2/Algorithm/Minimum%20Window%20Substring.java)
 
-[28 Product of Array Except Self](https://github.com/xunhuanfengliuxiang/Linkedin/tree/master/Algorithm)
+[31 Product of Array Except Self](https://github.com/xunhuanfengliuxiang/Linkedin/tree/master/Algorithm)
 
-[29 Symmetric Tree](https://github.com/xunhuanfengliuxiang/Linkedin/blob/30670ce243ca568abf284d4905c4d0919cfdf7ca/Algorithm/Symmetric%20Tree.java)
+[32 Symmetric Tree](https://github.com/xunhuanfengliuxiang/Linkedin/blob/30670ce243ca568abf284d4905c4d0919cfdf7ca/Algorithm/Symmetric%20Tree.java)
 
