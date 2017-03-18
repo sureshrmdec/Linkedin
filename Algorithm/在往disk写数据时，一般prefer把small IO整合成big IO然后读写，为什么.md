@@ -20,6 +20,8 @@
 　　控制器缓存和磁盘缓存除了上面的作用之外还承当着其他的作用，比如磁盘缓存有保存IO命令队列的功能，单个的磁盘一次只能处理一个IO命令，但却能接收多个IO命令，这些进入到磁盘而未被处理的命令就保存在缓存中的IO队列中。
 
 
+    </B>
+
 　　RAID(Redundant Array Of Inexpensive Disks)
 　　如果你是一位数据库管理员或者经常接触服务器，那对RAID应该很熟悉了，作为最廉价的存储解决方案，RAID早已在服务器存储中得到了普及。在RAID的各个级别中，应当以RAID10和RAID5(不过RAID5已经基本走到头了，RAID6正在崛起中，看看这里了解下原因)应用最广了。下面将就RAID0，RAID1，RAID5，RAID6，RAID10这几种级别的RAID展开说一下磁盘阵列对于磁盘性能的影响，当然在阅读下面的内容之前你必须对各个级别的RAID的结构和工作原理要熟悉才行，这样才不至于满头雾水，推荐查看wikipedia上面的如下条目：RAID，Standard RAID levels，Nested RAID levels。
 　　RAID0
