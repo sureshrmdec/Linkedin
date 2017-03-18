@@ -132,3 +132,5 @@ ________________________________________________________________________________
 [58 在往disk写数据时，一般prefer把small IO整合成big IO然后读写，为什么](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/%E5%9C%A8%E5%BE%80disk%E5%86%99%E6%95%B0%E6%8D%AE%E6%97%B6%EF%BC%8C%E4%B8%80%E8%88%ACprefer%E6%8A%8Asmall%20IO%E6%95%B4%E5%90%88%E6%88%90big%20IO%E7%84%B6%E5%90%8E%E8%AF%BB%E5%86%99%EF%BC%8C%E4%B8%BA%E4%BB%80%E4%B9%88.md)
 
 [59 Write Through和Write Back](https://github.com/xunhuanfengliuxiang/Linkedin/commit/2148bd3666d7af93e57ed3e3962a20ee16c69da6)
+
+[60 sqrt](https://github.com/xunhuanfengliuxiang/Linkedin/blob/38e0a16f0eceb45519e68fb75dbe5b9e58111f8c/Algorithm/sqrt.java)
