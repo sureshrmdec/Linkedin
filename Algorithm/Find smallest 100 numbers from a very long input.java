@@ -6,6 +6,8 @@ use priorityQueue (nlogk);
 2 
 use quickSelect(nk);
 
+a1(1 - q^n) / 1 - q; 
+
 n + 1/2n + 1/4n + 1/8n + ..... < 2n
 
 3 
