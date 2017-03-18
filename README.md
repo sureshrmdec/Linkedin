@@ -116,3 +116,7 @@
 [54 Tree Traversal](https://github.com/xunhuanfengliuxiang/Linkedin/blob/cb234579e52a38adaa077282eecdb265ea6aea4d/Algorithm/Tree%20Traversal.java)
 
 [55 Graph Valid Tree](https://github.com/xunhuanfengliuxiang/Linkedin/blob/2ad1828259fc21579178087e82bf9620a35f1a3f/Algorithm/Graph%20Valid%20Tree.java)
+
+[56 Convex Polygon](https://github.com/xunhuanfengliuxiang/Linkedin/blob/400b9d5f7120aecd2bd4e55416f87651e348484b/Algorithm/Convex%20Polygon.java)
+
+[57 假设a == b，什么情况下 ++a != ++b，只考虑single thread](https://github.com/xunhuanfengliuxiang/Linkedin/blob/400b9d5f7120aecd2bd4e55416f87651e348484b/Algorithm/%E5%81%87%E8%AE%BEa%20%3D%3D%20b%EF%BC%8C%E4%BB%80%E4%B9%88%E6%83%85%E5%86%B5%E4%B8%8B%20%2B%2Ba%20!%3D%20%2B%2Bb%EF%BC%8C%E5%8F%AA%E8%80%83%E8%99%91single%20thread.cpp)
