@@ -73,3 +73,85 @@ public class Solution {
         
     }
 }
+
+
+#include<iostream>
+struct Node
+{
+	int data;
+	Node* left;
+	Node* right;
+	Node* parent;
+	Node() :left(NULL), right(NULL), parent(NULL)
+	{}
+};
+int getDpeth(Node *n)//结点n到根节点深度
+{
+	int count = 0;
+	while (n)
+	{
+		++count;
+		n = n->parent;
+	}
+	return count;
+}
+Node* findNearestCommonAncestor(Node* n1, Node* n2)
+{
+	int depth1 = getDpeth(n1);
+	int depth2 = getDpeth(n2);
+
+	//移动同一深度
+	while (depth1 > depth2)
+	{
+		n1 = n1->parent;
+		--depth1;
+	}
+	while (depth1 < depth2)
+	{
+		n2 = n2->parent;
+		--depth2;
+	}
+	//向上找
+	while (n1 != n2)
+	{
+		n1 = n1->parent;
+		n2 = n2->parent;
+	}
+	return n1;
+}
+
+int main()
+{
+	//测试
+	Node* A[11];
+	for (int i = 0; i < 11; ++i)
+	{
+		A[i] = new Node();
+		A[i]->data = i;
+	}
+
+	for (int i = 0; i < 5; ++i)
+	{
+		A[i]->left = A[i * 2 + 1];
+		A[i * 2 + 1]->parent = A[i];
+
+		A[i]->right = A[i * 2 + 2];
+		A[i * 2 + 2]->parent = A[i];
+	}
+
+	Node* Ancestor = findNearestCommonAncestor(A[7], A[6]);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
