@@ -120,3 +120,5 @@
 [56 Convex Polygon](https://github.com/xunhuanfengliuxiang/Linkedin/blob/400b9d5f7120aecd2bd4e55416f87651e348484b/Algorithm/Convex%20Polygon.java)
 
 [57 假设a == b，什么情况下 ++a != ++b，只考虑single thread](https://github.com/xunhuanfengliuxiang/Linkedin/blob/400b9d5f7120aecd2bd4e55416f87651e348484b/Algorithm/%E5%81%87%E8%AE%BEa%20%3D%3D%20b%EF%BC%8C%E4%BB%80%E4%B9%88%E6%83%85%E5%86%B5%E4%B8%8B%20%2B%2Ba%20!%3D%20%2B%2Bb%EF%BC%8C%E5%8F%AA%E8%80%83%E8%99%91single%20thread.cpp)
+
+[58 在往disk写数据时，一般prefer把small IO整合成big IO然后读写，为什么](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/%E5%9C%A8%E5%BE%80disk%E5%86%99%E6%95%B0%E6%8D%AE%E6%97%B6%EF%BC%8C%E4%B8%80%E8%88%ACprefer%E6%8A%8Asmall%20IO%E6%95%B4%E5%90%88%E6%88%90big%20IO%E7%84%B6%E5%90%8E%E8%AF%BB%E5%86%99%EF%BC%8C%E4%B8%BA%E4%BB%80%E4%B9%88.md)
