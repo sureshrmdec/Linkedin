@@ -104,3 +104,6 @@
 
 
 [50 Valid Parentheses](https://github.com/xunhuanfengliuxiang/Linkedin/blob/ec718b072c170f8bec58ff4380fdfb98948fb6a7/Algorithm/Valid%20Parentheses.java)
+
+
+[51 K closest points to the origin](https://github.com/xunhuanfengliuxiang/Linkedin/blob/d1c44446b918bc9a15bf6e9013aff4ddf93ac89c/Algorithm/K%20closest%20points%20to%20the%20origin.java)
