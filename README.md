@@ -158,3 +158,6 @@ ________________________________________________________________________________
 [79 Given a set of numbers find if a triplet can form a triangle a+b > c , b+c > a and c+a > b. The result to display all possible combinations of triplets. [ 10 5 3 4 7 1] [5,3,4 ] is one possible triplet and there can be many more](https://github.com/xunhuanfengliuxiang/Linkedin/blob/a30af60bf56c5e48515b8b5d7505e1f725b1d64d/Algorithm/3Sum%20Smaller.java)
 
 [80 Intersection of Two Linked Lists](https://github.com/xunhuanfengliuxiang/Linkedin/blob/39ed61d32e4e59313c69817f806916215cb6638c/Algorithm/Intersection%20of%20Two%20Linked%20Lists.java)
+
+
+[81 web](https://github.com/xunhuanfengliuxiang/Linkedin/commit/d120955cb6ea910088c7ba111e559be3d42d3781)
