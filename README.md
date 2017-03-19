@@ -148,3 +148,5 @@ ________________________________________________________________________________
 [75 Bulb Switcher](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/Bulb%20Switcher.java)
 
 [76 implement stack with pop(), push() and findmiddle() with O(1) time](https://github.com/xunhuanfengliuxiang/Linkedin/blob/6e1f69e16f9cdfd234f2ae2dff90c72c2fc3534e/Algorithm/implement%20stack%20with%20pop()%2C%20push()%20and%20findmiddle()%20with%20O(1)%20time.java)
+
+[77 Rotate Array](https://github.com/xunhuanfengliuxiang/Linkedin/blob/72e413d3000092f33884b56a73880b3b16e14391/Algorithm/Rotate%20Array.java)
