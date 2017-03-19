@@ -182,3 +182,6 @@ ________________________________________________________________________________
 
 
 [89 Merge Email](https://github.com/xunhuanfengliuxiang/Linkedin/blob/09a58676546ad23cfeafcf7d68b23236e81fe7bf/Algorithm/Merge%20Email.java)
+
+
+[90 Longest Palindromic Substring](https://github.com/xunhuanfengliuxiang/Linkedin/blob/54da85d43d6ad494722ecd2dd769ec36773ca25c/Algorithm/Longest%20Palindromic%20Substring.java)
