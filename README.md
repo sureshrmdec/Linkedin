@@ -165,3 +165,6 @@ ________________________________________________________________________________
 [82 LRU Cache](https://github.com/xunhuanfengliuxiang/Linkedin/blob/463fd2a51d531db5894d572d70d22f8c24053a13/Algorithm/LRU%20Cache.java)
 
 [83 Search Insert Position](https://github.com/xunhuanfengliuxiang/Linkedin/blob/98b07fb8c686b2d0c19977f5fc54d9d12e41f0d0/Algorithm/Search%20Insert%20Position.java)
+
+
+[84 Shuffle an Array](https://github.com/xunhuanfengliuxiang/Linkedin/blob/9c68dad637ab87383ba8775a40bc403087f0a716/Algorithm/Shuffle%20an%20Array.java)
