@@ -174,3 +174,6 @@ ________________________________________________________________________________
 
 
 [86 Meeting Rooms I & II (Coding: Maximum number of overlapping intervals)](https://github.com/xunhuanfengliuxiang/Linkedin/blob/e5ef25309c52b57959584a29d0b45842826d504f/Algorithm/Meeting%20Rooms%20I%20%26%20II.java)
+
+
+[87 Find three closest elements from given three sorted arrays](https://github.com/xunhuanfengliuxiang/Linkedin/blob/c9dbe1df9a022f75cdf8a64f4921893083d9f27c/Algorithm/Find%20three%20closest%20elements%20from%20given%20three%20sorted%20arrays.java)
