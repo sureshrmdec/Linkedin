@@ -179,3 +179,6 @@ ________________________________________________________________________________
 [87 Find three closest elements from given three sorted arrays](https://github.com/xunhuanfengliuxiang/Linkedin/blob/c9dbe1df9a022f75cdf8a64f4921893083d9f27c/Algorithm/Find%20three%20closest%20elements%20from%20given%20three%20sorted%20arrays.java)
 
 [88 Validate Binary Search Tree](https://github.com/xunhuanfengliuxiang/Linkedin/blob/7aec0332c1487a9386157aacfc4fd670ba4264db/Algorithm/Validate%20Binary%20Search%20Tree.java)
+
+
+[89 Merge Email](https://github.com/xunhuanfengliuxiang/Linkedin/blob/09a58676546ad23cfeafcf7d68b23236e81fe7bf/Algorithm/Merge%20Email.java)
