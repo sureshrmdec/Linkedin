@@ -153,3 +153,6 @@ ________________________________________________________________________________
 
 
 [78 Search a 2D Matrix](https://github.com/xunhuanfengliuxiang/Linkedin/blob/242a5e7438ae28a403976815167cd461f1d32213/Algorithm/Search%20a%202D%20Matrix.java)
+
+
+[79 Given a set of numbers find if a triplet can form a triangle a+b > c , b+c > a and c+a > b. The result to display all possible combinations of triplets. [ 10 5 3 4 7 1] [5,3,4 ] is one possible triplet and there can be many more](https://github.com/xunhuanfengliuxiang/Linkedin/blob/a30af60bf56c5e48515b8b5d7505e1f725b1d64d/Algorithm/3Sum%20Smaller.java)
