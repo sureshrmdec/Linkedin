@@ -143,3 +143,6 @@ ________________________________________________________________________________
 
 
 [74 Insert Delete GetRandom O(1) - Duplicates allowed](https://github.com/xunhuanfengliuxiang/Linkedin/blob/b96e43cb4691d285f97f0bafcd006fcb96978a01/Algorithm/Insert%20Delete%20GetRandom%20O(1)%20-%20Duplicates%20allowed.java)
+
+
+[75 Bulb Switcher](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/Bulb%20Switcher.java)
