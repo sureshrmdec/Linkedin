@@ -140,3 +140,6 @@ ________________________________________________________________________________
 [72 String Reverse](https://github.com/xunhuanfengliuxiang/Linkedin/blob/98c002e329a0716a41582659538f2bcf80c9692d/Algorithm/String_reverse.java)
 
 [73 word ladder II](https://github.com/xunhuanfengliuxiang/Linkedin/blob/4fc533d50d838dfe2c2cfe51ef0194c0f988ff96/Algorithm/Word%20Ladder%20II.java)
+
+
+[74 Insert Delete GetRandom O(1) - Duplicates allowed](https://github.com/xunhuanfengliuxiang/Linkedin/blob/b96e43cb4691d285f97f0bafcd006fcb96978a01/Algorithm/Insert%20Delete%20GetRandom%20O(1)%20-%20Duplicates%20allowed.java)
