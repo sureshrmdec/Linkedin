@@ -134,3 +134,5 @@ ________________________________________________________________________________
 [59 Write Through和Write Back](https://github.com/xunhuanfengliuxiang/Linkedin/commit/2148bd3666d7af93e57ed3e3962a20ee16c69da6)
 
 [60 sqrt](https://github.com/xunhuanfengliuxiang/Linkedin/blob/38e0a16f0eceb45519e68fb75dbe5b9e58111f8c/Algorithm/sqrt.java)
+
+[71 FlowerBed](https://github.com/swatkatz/problem-solving/blob/master/src/main/java/org/swati/problemSolving/FlowerBed.java)
