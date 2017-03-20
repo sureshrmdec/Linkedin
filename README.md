@@ -191,3 +191,5 @@ ________________________________________________________________________________
 
 
 [92 Total Hamming Distance](https://github.com/xunhuanfengliuxiang/Linkedin/blob/9cbf25bccd01853c96ea3892d66071ef184757e3/Algorithm/Total%20Hamming%20Distance.java)
+
+[93 Hop Iterator](https://github.com/xunhuanfengliuxiang/Linkedin/blob/eee28410a191abf879e99dedc94883a13154ab16/Algorithm/Hop%20Iterator.java)
