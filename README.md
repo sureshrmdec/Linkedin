@@ -198,3 +198,5 @@ ________________________________________________________________________________
 [94 Combination Sum II](https://github.com/xunhuanfengliuxiang/Linkedin/blob/bd0ddf9d364ee7dcb54bfeb70b00899c94e50222/Algorithm/Combination%20Sum%20II.java)
 
 [95 First Missing Positive](https://github.com/xunhuanfengliuxiang/Linkedin/blob/ec17771b887cee2c7edb6c7b9d11f0771fb2eb63/Algorithm/First%20Missing%20Positive.java)
+
+[96 Min Stack](https://github.com/xunhuanfengliuxiang/Linkedin/blob/3a765024a5b792e0092e80bd51462d2f06b767d6/Algorithm/Min%20Stack.java)
