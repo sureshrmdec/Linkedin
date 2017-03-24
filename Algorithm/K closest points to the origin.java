@@ -9,6 +9,50 @@ public class Point {
     }
 }
 */
+
+	public List<Point> findKClosest(Point[] p, int k) {
+
+		List<Point> list = new ArrayList<>();
+
+		if (p == null || p.length == 0) {
+			return list;
+		}
+
+		PriorityQueue<Point> q =
+			new PriorityQueue<>((o1, o2) -> (o2.y * o2.y + o2.y * o2.x) - (o1.y * o1.y
+																		   + o1.y * o1.x));
+
+		int i = 0;
+
+		for (Point curr : p) {
+
+			if (i < k) {
+				q.add(curr);
+			} else {
+
+				Point temp = q.peek();
+
+				if ((curr.x * curr.x + curr.y * curr.y) - (temp.x * temp.x + temp.y * temp.y) < 0) {
+					q.poll();
+					q.add(curr);
+				}
+
+			}
+
+		}
+		
+		for(Point point : q){
+			list.add(point);
+		}
+		
+		return list;
+
+
+	}
+
+
+
+
 public List<Point> findKClosest(Point[] p, int k) {
 	//initial capacity and comparator
 	PriorityQueue<Point> pq = new PriorityQueue<Point>(10, new Comparator<Point>(){
