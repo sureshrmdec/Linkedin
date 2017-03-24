@@ -10,6 +10,18 @@ a1(1 - q^n) / 1 - q;
 
 n + 1/2n + 1/4n + 1/8n + ..... < 2n
 
+
+array={...the billion numbers...} 
+result[100];
+
+pivot=QuickSelect(array,billion-101);//O(N)
+
+for(i=0;i<billion;i++)//O(N)
+   if(array[i]>=pivot)
+      result.add(array[i]);
+
+
+
 3 
 If this is asked in an interview, I think the interviewer probably wants to see your problem solving process, 
 not just your knowledge of algorithms.
