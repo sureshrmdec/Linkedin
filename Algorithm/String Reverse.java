@@ -43,7 +43,7 @@ public class Solution {
     
     public void reverse(char[] s, int l, int r) {
         while (l <= r) {
-            int temp = s[l];
+            char temp = s[l];
             s[l] = s[r];
             s[r] = temp;
             l++;
