@@ -39,6 +39,8 @@ public class Solution {
                 last = i + 1;
             }
         }
+        
+        reverse(s, last, s.length - 1);
     }
     
     public void reverse(char[] s, int l, int r) {
@@ -51,3 +53,4 @@ public class Solution {
         }
     }
 }
+
