@@ -19,8 +19,7 @@ public class Point {
 		}
 
 		PriorityQueue<Point> q =
-			new PriorityQueue<>((o1, o2) -> (o2.y * o2.y + o2.y * o2.x) - (o1.y * o1.y
-																		   + o1.y * o1.x));
+			new PriorityQueue<>((o1, o2) -> (o2.y * o2.y + o2.y * o2.x) - (o1.y * o1.y + o1.y * o1.x));
 
 		int i = 0;
 
