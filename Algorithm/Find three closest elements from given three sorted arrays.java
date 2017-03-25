@@ -22,6 +22,70 @@ Output: 24 22 23
 
 
 
+
+
+
+
+
+
+public class Test {
+
+
+	private static  int x;
+	private static int y;
+	private static int z;
+
+	public static void main(String[] args) {
+		int A[] = {20, 24, 100};
+		int B[] = {2, 19, 22, 79, 800};
+		int C[] = {10, 12, 23, 24, 119};
+
+		getClose(A, B, C, 0, 0, 0);
+		System.out.println(x);
+		System.out.println(y);
+		System.out.println(z);
+	}
+
+
+	private static void getClose(int[] A, int[] B, int[] C, int i, int j, int k) {
+		int min = Integer.MAX_VALUE;
+
+		int max = Integer.MIN_VALUE;
+
+		int diff = Integer.MAX_VALUE;
+
+		while (i < A.length && j < B.length && k < C.length) {
+
+			min = Math.min(A[i], Math.min(B[j], C[k]));
+
+			max = Math.max(A[i], Math.max(B[j], C[k]));
+
+			if (max - min < diff) {
+
+				diff = max - min ;
+
+				x = A[i];
+				y = B[j];
+				z = C[k];
+			}
+
+			if (A[i] == min) {
+				i++;
+			} else if (B[j] == min) {
+				j++;
+			} else {
+				k++;
+			}
+
+
+		}
+
+	}
+
+}
+
+
+
 void findClosest(int A[], int B[], int C[], int p, int q, int r)
 {
  
