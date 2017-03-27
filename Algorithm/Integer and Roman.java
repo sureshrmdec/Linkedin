@@ -82,8 +82,8 @@ public class Solution {
 	case 'V':
 		nums[i]=5;
 		break;
-		case 'I':
-	nums[i]=1;
+	case 'I':
+		nums[i]=1;
 		break;
             }
             
