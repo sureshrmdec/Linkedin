@@ -51,3 +51,15 @@ public class Solution {
         
     }
 }
+
+List<String> = new ArrayList<>();
+
+for(int i = 0; i < m; i++){
+    for(int j = 0; j < n; j++){
+        if(dp[i][j]){
+            res.add(s.substring(i, j - i + 1));
+        }
+    }
+}
+
+return res;
