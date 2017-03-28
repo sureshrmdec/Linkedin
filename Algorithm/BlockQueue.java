@@ -79,15 +79,20 @@ public class Example {
 Again from The Little Book of Semaphores, §2.2:
 
 Listing 2.1: Semaphore initialization syntax
-
 fred = Semaphore(1)
 The function Semaphore is a constructor; it creates and returns a new Semaphore. 
 The initial value of the semaphore is passed as a parameter to the constructor.
 So in the author's pseduocode, 0 isn't the number of permits; 
+
+
 it's the initial value of the semaphore. What does a value of zero mean? 
 It's explained in the text immediately proceeding listing 2.1:
 If the value is positive, then it represents the number of threads that can decrement without blocking. 
 If it is negative, then it represents the number of threads that have blocked and are waiting.
 If the value is zero, it means there are no threads waiting, but if a thread tries to decrement, it will block.
 
+Can I add more permit to a semaphore in Java?
 
+Semaphore s = new Semaphore(3);
+
+semaphore.release(10);
