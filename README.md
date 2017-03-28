@@ -215,3 +215,6 @@ ________________________________________________________________________________
 
 
 [103 Blocking Queue](https://github.com/xunhuanfengliuxiang/Linkedin/blob/ff81e40c0cee71b18b870d0b918558412db9c9ff/Algorithm/BlockQueue.java)
+
+
+[104 semaphore and mutex difference](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/semaphore%20and%20mutex%20difference.md)
