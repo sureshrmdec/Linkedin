@@ -22,6 +22,52 @@ Have you met this question in a real interview? Yes
  */
 
 
+    public Iterable<Integer> mergeKSortedIterators(Iterator<Integer>[] iters) {
+
+        Queue<IntIterator> q = new PriorityQueue<>(iters.length, comparator);
+
+
+        for (Iterator<Integer> i : iters) {
+            q.add(new IntIterator(i));
+        }
+
+
+        List<Integer> res = new ArrayList<>();
+
+        while (!q.isEmpty()) {
+
+            IntIterator intIterator = q.poll();
+
+            res.add(intIterator.next);
+
+            if (intIterator.iterator.hasNext()) {
+                q.add(new IntIterator(intIterator.iterator));
+            }
+        }
+
+        return res;
+
+    }
+
+    private Comparator<IntIterator> comparator = new Comparator<IntIterator>() {
+        @Override
+        public int compare(IntIterator o1, IntIterator o2) {
+            return o1.next - o2.next;
+        }
+    };
+
+
+    class IntIterator {
+        Iterator<Integer> iterator;
+        int next;
+
+
+        public IntIterator(Iterator<Integer> iterator) {
+            this.next = iterator.next();
+            this.iterator = iterator;
+        }
+
+    }
 
 
 
