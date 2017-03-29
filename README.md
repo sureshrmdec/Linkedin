@@ -221,3 +221,6 @@ ________________________________________________________________________________
 
 
 [105 Decimal To Binary](https://github.com/xunhuanfengliuxiang/Linkedin/blob/e1200ca2ce0d855cc3aaa6413a056515c2941004/Algorithm/Decimal%20To%20Binary.java)
+
+
+[106 Tournament tree second Min](https://github.com/xunhuanfengliuxiang/Linkedin/blob/1f4553af230a2ec5e8694b9a1637ca2dfc486c05/Algorithm/Tournament%20tree%20second%20Min.java)
