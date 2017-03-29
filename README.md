@@ -234,3 +234,6 @@ ________________________________________________________________________________
 [110 H2O](https://github.com/xunhuanfengliuxiang/Linkedin/blob/aa82d39dcbd6a3c523fa55a0486ae81718458b49/Algorithm/H2O.java)
 
 [111 Semaphore](https://github.com/xunhuanfengliuxiang/Linkedin/blob/903ab035a96a9ae4ae24fb23f61ef766f6d5a7f5/Algorithm/Semaphore.java)
+
+
+[112 Dead Lock](https://github.com/xunhuanfengliuxiang/Linkedin/blob/688ba412a27c0a17e2fd557ead48a836ee13146c/Algorithm/Dead%20Lock.java)
