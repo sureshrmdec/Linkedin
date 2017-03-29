@@ -237,3 +237,6 @@ ________________________________________________________________________________
 
 
 [112 Dead Lock](https://github.com/xunhuanfengliuxiang/Linkedin/blob/688ba412a27c0a17e2fd557ead48a836ee13146c/Algorithm/Dead%20Lock.java)
+
+
+[113 Get Balanced Point](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/Get%20Balanced%20Point.java)
