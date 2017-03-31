@@ -79,3 +79,101 @@ public class H2O {
         }
     }
 }
+
+
+
+
+package multiThreads;
+ 
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+ 
+class H2O {
+    int Hcount;
+    int Ocount;
+    Lock lock = new ReentrantLock();
+    Condition cH = lock.newCondition();
+    Condition cO = lock.newCondition();
+  
+    public void H() {
+        lock.lock();
+        Hcount++;
+        if (Hcount >= 2 && Ocount >= 1) {
+            Hcount -= 2;
+            Ocount -= 1;
+            cH.signal();
+            cO.signal();
+            System.out.println("H2O");
+        } else {
+            try {
+                cH.await();
+            } catch (InterruptedException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+        }
+        lock.unlock();
+    }
+  
+    public void O() {
+        lock.lock();
+        Ocount++;
+        if (Hcount >= 2 && Ocount >= 1) {
+            Hcount -= 2;
+            Ocount -= 1;
+            cH.signal();
+            cH.signal();
+            System.out.println("H2O");
+        } else {
+            try {
+                cO.await();
+            } catch (InterruptedException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+        }
+        lock.unlock();
+    }
+}
+ 
+class Hclass implements Runnable {
+    private H2O obj;
+  
+    public Hclass(H2O obj) {
+        this.obj = obj;
+    }
+    @Override
+    public void run() {
+        // TODO Auto-generated method stub
+        obj.H();
+    }
+  
+}
+ 
+class Oclass implements Runnable {
+    private H2O obj;
+  
+    public Oclass(H2O obj) {
+        this.obj = obj;
+    }
+    @Override
+    public void run() {
+        // TODO Auto-generated method stub
+        obj.O();
+    }
+  
+}
+ 
+public class H2Oexample {
+    final private static H2O obj = new H2O();
+  
+    public static void main(String[] args) {
+        for (int i = 0; i< 10; i++) {
+            new Thread(new Hclass(obj)).start();
+        }
+        for (int i = 0; i< 5; i++) {
+            new Thread(new Oclass(obj)).start();
+        }
+    }
+}
