@@ -1,4 +1,3 @@
-import java.util.*;
 import java.util.concurrent.locks.*;
 
 public class H2O {
@@ -12,7 +11,7 @@ public class H2O {
     public void H() throws InterruptedException {
         lock.lock();
         try {
-            HCount += 2;
+            HCount++;
             if (HCount >= 2 && OCount >= 1) {
                 System.out.println("2 H and 1 O consumed in H()");
                 HCount -= 2;
