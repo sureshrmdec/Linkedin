@@ -243,3 +243,5 @@ ________________________________________________________________________________
 
 
 [114 Singleton](https://github.com/xunhuanfengliuxiang/Linkedin/blob/b227a77a23a77e59e632e418ab03bfcbd1875324/Algorithm/Singleton.java)
+
+[115 HashMap](https://github.com/xunhuanfengliuxiang/Linkedin/blob/c0a1787c3b2c26667282f9c7be9eadd48a01fb01/Algorithm/HashMap.java)
