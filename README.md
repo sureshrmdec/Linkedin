@@ -240,3 +240,6 @@ ________________________________________________________________________________
 
 
 [113 Get Balanced Point](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/Get%20Balanced%20Point.java)
+
+
+[114 Singleton](https://github.com/xunhuanfengliuxiang/Linkedin/blob/b227a77a23a77e59e632e418ab03bfcbd1875324/Algorithm/Singleton.java)
