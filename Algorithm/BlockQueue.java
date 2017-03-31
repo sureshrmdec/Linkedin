@@ -1,3 +1,93 @@
+
+
+
+package test;
+
+import com.company.B;
+import com.company.Execution;
+
+import java.util.*;
+import java.util.concurrent.Semaphore;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
+public class BlockQueue<T> {
+    private Queue<T> q;
+
+    private ReentrantLock lock = new ReentrantLock();
+
+    private Condition empty = lock.newCondition();
+
+    private Condition full = lock.newCondition();
+
+
+    private int capacity;
+
+
+    public BlockQueue(int capacity) {
+
+        this.capacity = capacity;
+        q = new LinkedList<>();
+
+    }
+
+    public void put(T data) {
+
+        lock.lock();
+
+        try {
+
+            while (q.size() == capacity) {
+                full.await();
+            }
+
+            q.offer(data);
+
+            empty.signal();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            lock.unlock();
+        }
+
+    }
+
+
+    public T getData() {
+
+        lock.lock();
+
+        try {
+
+            while (q.isEmpty()) {
+                empty.await();
+            }
+
+            T data = q.poll();
+
+            full.signal();
+            return data;
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            lock.unlock();
+        }
+
+
+        return null;
+
+    }
+}
+
+
+
+
+
+
+
+
 import java.util.*;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
