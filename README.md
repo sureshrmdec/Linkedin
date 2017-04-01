@@ -247,3 +247,6 @@ ________________________________________________________________________________
 [115 HashMap](https://github.com/xunhuanfengliuxiang/Linkedin/blob/c0a1787c3b2c26667282f9c7be9eadd48a01fb01/Algorithm/HashMap.java)
 
 [116 Find Median from Data Stream](https://github.com/xunhuanfengliuxiang/Linkedin/blob/487e7c7c7a79ed3b40ddd62402fa8d6bde4c705d/Algorithm/Find%20Median%20from%20Data%20Stream.java)
+
+
+[117 Write a function that given an instance of the k-D array class and size of its dimensions, calculates the sum of all elements](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/Write%20a%20function%20that%20given%20an%20instance%20of%20the%20k-D%20array%20class%20and%20size%20of%20its%20dimensions,%20calculates%20the%20sum%20of%20all%20elements.java)
