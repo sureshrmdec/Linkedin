@@ -3,6 +3,122 @@ implement stack with pop(), push() and findmiddle() with O(1) time
 
 */
 
+
+
+
+
+
+
+
+package com.company;
+
+/**
+ * Created by Jason on 4/1/2017.
+ */
+public class MidStack<T> {
+
+
+	static class Node<T> {
+
+		T val;
+		Node<T> prev;
+		Node<T> next;
+
+		Node(T val) {
+			this.val = val;
+		}
+
+
+	}
+
+	private int size = 0;
+	private Node<T> head = null;
+	private Node<T> tail = null;
+	private Node<T> mid = null;
+
+
+	public void push(T val) {
+
+		Node<T> node = new Node<T>(val);
+
+		if (head == null) {
+
+			head = node;
+			tail = node;
+			mid = node;
+		} else {
+			tail.next = node;
+			node.prev = tail;
+			tail = node;
+
+			if (size % 2 == 0) {
+				mid = mid.next;
+			}
+
+
+		}
+
+		size++;
+
+	}
+
+
+	public T pop() {
+		if(tail == null){
+			return null;
+		}
+
+		Node<T> temp = tail;
+
+		if(size == 1){
+
+			head = null;
+			tail = null;
+			mid = null;
+		}else{
+			tail.prev.next = null;
+			if(size % 2 != 0){
+				mid = mid.prev;
+			}
+
+			tail = tail.prev;
+		}
+
+		size--;
+
+		return temp.val;
+
+
+
+	}
+	public T mid() {
+		if (mid == null) {
+			return null;
+		}
+		return mid.val;
+	}
+
+
+	public static void main(String[] args) {
+		MidStack<Integer> ms = new MidStack<>();
+		ms.push(1);
+		ms.push(2);
+		ms.push(3);
+		System.out.println("mid: " + ms.mid());
+		ms.pop();
+		System.out.println("mid: " + ms.mid());
+		ms.pop();
+		System.out.println("mid: " + ms.mid());
+	}
+}
+
+
+
+
+
+
+
+
 /*
 
 
