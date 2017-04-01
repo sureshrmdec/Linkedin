@@ -250,3 +250,6 @@ ________________________________________________________________________________
 
 
 [117 Write a function that given an instance of the k-D array class and size of its dimensions, calculates the sum of all elements](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/Write%20a%20function%20that%20given%20an%20instance%20of%20the%20k-D%20array%20class%20and%20size%20of%20its%20dimensions,%20calculates%20the%20sum%20of%20all%20elements.java)
+
+
+[118 Count Palindromes](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/Count%20Palindromes.java)
