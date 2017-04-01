@@ -1,3 +1,74 @@
+
+package com.company;
+
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.List;
+
+/**
+ * Created by Jason on 4/1/2017.
+ */
+public class HoppingIterator<T> implements Iterator<T> {
+
+
+	private int hop;
+	private Iterator<T> iterator;
+	private T next;
+
+	public HoppingIterator(Iterator<T> iterator, int numHops) {
+		this.hop = numHops;
+		this.iterator = iterator;
+		if (iterator.hasNext()) {
+			next = iterator.next();
+		}
+	}
+
+
+	public boolean hasNext() {
+
+		return next != null;
+	}
+
+	@Override
+
+	public T next() {
+		T rs = next;
+		for (int i = 0; i <= hop; i++) {
+			if (iterator.hasNext()) {
+				next = iterator.next();
+			} else {
+				next = null;
+			}
+		}
+		return rs;
+	}
+
+	public static void main(String[] args) {
+		Integer[] a = {1, 2, 3, 4, 5};
+		List<Integer> k = Arrays.asList(a);
+		HoppingIterator<Integer> hp = new HoppingIterator<>(k.iterator(), 2);
+		while (hp.hasNext()) {
+			System.out.println(hp.next());
+		}
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
