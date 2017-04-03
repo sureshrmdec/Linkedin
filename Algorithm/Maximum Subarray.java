@@ -1,7 +1,4 @@
 
-
-
-
 		Integer[] stringArr = { 1, 2, 3, 4 };
 		Stream<Integer> stream = Stream.of(stringArr);
 		Integer[] arr = stream.toArray(Integer[]::new);
