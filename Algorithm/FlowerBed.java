@@ -33,7 +33,7 @@ input: 0
         } else if (currPos + 1 == flowerbed.size()) {
             return flowerbed.get(currPos - 1);
         } else {
-            return flowerbed.get(currPos + 1) || flowerbed.get(currPos - 1);
+            return flowerbed.get(currPos + 1) && flowerbed.get(currPos - 1);
         }
     }
 
