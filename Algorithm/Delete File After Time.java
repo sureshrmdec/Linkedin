@@ -37,3 +37,42 @@
         }
 
     }
+
+
+    public static void main(String[] args) {
+        File f = null;
+        String path;
+        long millisec;
+        boolean bool = false;
+
+
+        try {
+
+            // create new file
+            f = new File("l:/download/123.txt");
+
+            // true if the file path is a file, else false
+            bool = f.exists();
+
+            // if path exists
+            if (bool) {
+                // returns the time file was last modified
+                millisec = f.lastModified();
+
+                // date and time
+                Date dt = new Date(millisec);
+
+                // path
+                path = f.getPath();
+
+                // print
+                System.out.print(path + " last modified at: " + dt);
+            }
+
+
+        } catch (Exception e) {
+
+            // if any error occurs
+            e.printStackTrace();
+        }
+    }
