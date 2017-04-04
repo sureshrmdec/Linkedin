@@ -1,4 +1,4 @@
-public class FlowerBed {
+
 /*Suppose you have a long flowerbed in which some of the plots are planted and some are not. However, flowers cannot be planted in adjacent plots - they would compete for water and both would die. Given a flowerbed (represented as an array containing booleans), return if a given number of new flowers can be planted in it without violating the no-adjacent-flowers rule
 Sample inputs
 Input: 1,0,0,0,0,0,1,0,0
@@ -10,7 +10,7 @@ Input: 1,0,0,1,0,0,1,0,0
 input: 0
 1 => true
 2 => false */
-
+public class FlowerBed {
     public static boolean canPlaceFlowers(List<Boolean> flowerbed, int numberToPlace) {
         int currentPlaced = 0;
         for (int i = 0; i < flowerbed.size(); i++) {
