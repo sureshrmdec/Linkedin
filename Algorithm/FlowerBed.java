@@ -1,5 +1,8 @@
 
-/*Suppose you have a long flowerbed in which some of the plots are planted and some are not. However, flowers cannot be planted in adjacent plots - they would compete for water and both would die. Given a flowerbed (represented as an array containing booleans), return if a given number of new flowers can be planted in it without violating the no-adjacent-flowers rule
+/*Suppose you have a long flowerbed in which some of the plots are planted and some are not. However, f
+lowers cannot be planted in adjacent plots - they would compete for water and both would die.
+Given a flowerbed (represented as an array containing booleans), 
+return if a given number of new flowers can be planted in it without violating the no-adjacent-flowers rule
 Sample inputs
 Input: 1,0,0,0,0,0,1,0,0
 3 => true
@@ -33,7 +36,7 @@ public class FlowerBed {
         } else if (currPos + 1 == flowerbed.size()) {
             return flowerbed.get(currPos - 1);
         } else {
-            return flowerbed.get(currPos + 1) && flowerbed.get(currPos - 1);
+            return !flowerbed.get(currPos + 1) && !flowerbed.get(currPos - 1);
         }
     }
 
