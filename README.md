@@ -132,7 +132,7 @@ ________________________________________________________________________________
 
 [60 sqrt](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/sqrt.java)
 
-[71 FlowerBed](https://github.com/swatkatz/problem-solving/blob/master/src/main/java/org/swati/problemSolving/FlowerBed.java)
+[71 FlowerBed](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/FlowerBed.java)
 
 [72 String Reverse](https://github.com/xunhuanfengliuxiang/Linkedin/blob/master/Algorithm/String%20Reverse.java)
 
