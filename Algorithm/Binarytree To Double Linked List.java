@@ -1,4 +1,4 @@
-lass NodeRef{
+class NodeRef{
   Node node;
 }
 
