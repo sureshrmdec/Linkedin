@@ -1,8 +1,12 @@
 
-/*Suppose you have a long flowerbed in which some of the plots are planted and some are not. However, f
-lowers cannot be planted in adjacent plots - they would compete for water and both would die.
-Given a flowerbed (represented as an array containing booleans), 
-return if a given number of new flowers can be planted in it without violating the no-adjacent-flowers rule
+import java.util.Arrays;
+import java.util.List;
+
+/**
+ * Created by jicheng on 4/5/2017.
+ */
+public class FlowerBed {
+/*Suppose you have a long flowerbed in which some of the plots are planted and some are not. However, flowers cannot be planted in adjacent plots - they would compete for water and both would die. Given a flowerbed (represented as an array containing booleans), return if a given number of new flowers can be planted in it without violating the no-adjacent-flowers rule
 Sample inputs
 Input: 1,0,0,0,0,0,1,0,0
 3 => true
@@ -13,7 +17,7 @@ Input: 1,0,0,1,0,0,1,0,0
 input: 0
 1 => true
 2 => false */
-public class FlowerBed {
+
     public static boolean canPlaceFlowers(List<Boolean> flowerbed, int numberToPlace) {
         int currentPlaced = 0;
         for (int i = 0; i < flowerbed.size(); i++) {
@@ -36,13 +40,13 @@ public class FlowerBed {
         } else if (currPos + 1 == flowerbed.size()) {
             return flowerbed.get(currPos - 1);
         } else {
-            return !flowerbed.get(currPos + 1) && !flowerbed.get(currPos - 1);
+            return flowerbed.get(currPos + 1) || flowerbed.get(currPos - 1);
         }
     }
 
     public static void main(String[] args) {
-        List<Boolean> flowerBed = Arrays.asList(true, true, false, false, false, false, true, false, false);
-        if (canPlaceFlowers(flowerBed, 3)) {
+        List<Boolean> flowerBed = Arrays.asList(false, false, false, false, false, false, false, false, false);
+        if (canPlaceFlowers(flowerBed, 5)) {
             System.out.println("Can placeFlowers is true");
         } else {
             System.out.println("Can placeFlowers is false");
