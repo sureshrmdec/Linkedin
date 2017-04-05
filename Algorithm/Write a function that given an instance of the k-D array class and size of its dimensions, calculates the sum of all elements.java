@@ -28,7 +28,7 @@ public List<int[]> getAllIndex (int[] dimensions) {-google 1point3acres
                 List<int[]> result = new ArrayList<int[]>();
                 int[] index = new int[dimensions.length];
                 helper(result, index, 0, dimensions);
-                return result;. 1point3acres.com/bbs
+                return result;
         }
         private void helper(List<int[]> result, int[] index, int depth, int[] dimensions) {
                 if (depth == dimensions.length) {
