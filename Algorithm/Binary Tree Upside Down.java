@@ -63,7 +63,27 @@ public class Solution {
 }
 
 
+public class UpsidedownBinaryTree {
+    public Node upsideDownBinaryTree(Node root) {
+        if (root == null) {
+            return null;
+        }
+        return upsideDownBinaryTree(root, null, null);
+    }
 
+    public Node upsideDownBinaryTree(Node root, Node parent, Node rightChild) {
+        if (root == null) {
+            return parent;
+        }
+        Node left = root.left;
+        Node right = root.right;
+
+        root.right = parent;
+        root.left = rightChild;
+
+        return upsideDownBinaryTree(left, root, right);
+    }
+}
 
 /**
  * Definition for a binary tree node.
